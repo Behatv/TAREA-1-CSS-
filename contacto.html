@@ -26,36 +26,47 @@
 
              
             <img  class="banner"  src="imagenes/contactoimagenarriba1.jpg">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 
 
-        
-
-
-            <div>
-                
-                <form>
-            
+            <form id="formulario_contacto">
+                <div class="labels_formulario_contacto">              
                     <label for="nombre">Nombre:</label>
                     <input type="text" name="nombre" id="nombre" placeholder="nombre...">
+                </div>
 
+                <div class="labels_formulario_contacto">
                     <label for="apellido"></label>
                     <input type="text" name="apellido" id="apellido" placeholder=apellido><br><br>
+                </div>
 
+                <div class="labels_formulario_contacto">
                     <label for="email">Email:</label>
                     <input type="text" name="email" id="email" placeholder="email@gmail.com"><br><br>
+                </div>
 
+                <div class="labels_formulario_contacto">  
                     <label for="telefono">Telefono:</label>
                     <input type="number" name="telefono" placeholder="+569">
-
+                </div>
+                <div class="labels_formulario_contacto"> 
+                    <label for="telefono">Telefono:</label>
+                    <input type="number" name="telefono" placeholder="XXXXXXXX"><br><br>
+                </div>
+                <div class="labels_formulario_contacto">
                     <lable for="telefono2"> </lable>
                     <input type="number" name="telefono2" id="telefono2" placeholder="XXXXXXXX"> <br><br>
+                </div>
+                <div class="labels_formulario_contacto"> 
                     Asunto:
                     <select>
                         <option> viajes </option>
                         <option> encomienda </option>
                         <option selected> otro </option>
                     </select> <br><br>
-                    
+                </div>
+                
+                <div class="labels_formulario_contacto">
                     Sexo: <br>
 
                     <label for="masculino"> masculino </label>
@@ -67,7 +78,14 @@
 
                     <label for="fecha"> Fecha de nacimiento: </label>
                     <input type="datetime-local" name="fecha" id="fecha"> <br><br>
+                </div>
 
+                <div class="labels_formulario_contacto"> 
+                    <label for="nacionalidad"> Nacionalidad: </label>
+                    <input type="text" name="nacionalidad" id="nacionalidad" placeholder="nacionalidad..."> <br><br>
+                </div>
+
+                <div class="labels_formulario_contacto">
                     Estado civil: <br>
                     <label for="estado">Soltero </label>
                     <input type="radio" name="soltero" id="estado">
@@ -76,30 +94,35 @@
                     <input type="radio" name="soltero" id="estado" >
                     
                     <label for="estado">Casado </label>
-                    <input type="radio" name="soltero"  id="estado"><br> 
+                    <input type="radio" name="soltero"  id="estado"><br>
+                </div>
 
-                    <br> 
+                <br>
+
+                <div class="labels_formulario_contacto"> 
                     <label for="edad">Edad: </label>
                     <input type="number" name"edad" max="120" min="0" placeholder="edad"> <br><br>
-                    
+                </div> 
+                
+                <div class="labels_formulario_contacto"> 
                     Comentario: <br><br>
                     <textarea rows="10" cols="55" name="comentario" placeholder="escriba un comentario..."></textarea> <br><br>
-                    
+                </div>
+                <div class="labels_formulario_contacto">   
                     <label for="archivo">Adjuntar archivo: </label>
                     <input> <input type="file" name="archivo" > <br><br>
-                    
-                    <tr>
-                        <td align="right">
-                            <input type="submit" value="Enviar">
-                        </td>
-                    </tr>                                               
-                </form>              
+                </div>
+                
+                <div class="labels_formulario_contacto"->                 
+                    <buttom type="submit" value="Enviar"> ENVIAR:</buttom>
+                </div>                                              
+            </form>              
 
                     
 
 
 
-            </div> 
+
 
         
         </main>
