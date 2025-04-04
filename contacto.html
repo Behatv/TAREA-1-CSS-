@@ -26,8 +26,7 @@
 
              
             <img  class="banner"  src="imagenes/contactoimagenarriba1.jpg">
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                
+   
 
             <form id="formulario_contacto">
                 <div class="labels_formulario_contacto">              
@@ -49,26 +48,18 @@
                     <label for="telefono">Telefono:</label>
                     <input type="number" name="telefono" placeholder="+569">
                 </div>
+
                 <div class="labels_formulario_contacto"> 
-                    <label for="telefono">Telefono:</label>
-                    <input type="number" name="telefono" placeholder="XXXXXXXX"><br><br>
-                </div>
-                <div class="labels_formulario_contacto">
-                    <lable for="telefono2"> </lable>
-                    <input type="number" name="telefono2" id="telefono2" placeholder="XXXXXXXX"> <br><br>
-                </div>
-                <div class="labels_formulario_contacto"> 
-                    Asunto:
+                    <label for="asunto"> Asunto: </label>
                     <select>
-                        <option> viajes </option>
-                        <option> encomienda </option>
-                        <option selected> otro </option>
+                        <option > viajes </option>
+                        <option > encomienda </option>
+                        <option selected > otro </option>
                     </select> <br><br>
                 </div>
                 
                 <div class="labels_formulario_contacto">
-                    Sexo: <br>
-
+                    <label for="sexo"> Sexo: </label><br>
                     <label for="masculino"> masculino </label>
                     <input type="checkbox" name="masculino" id="masculino">  <br>
                     <label for="femenino"> femenino </label>
@@ -86,7 +77,7 @@
                 </div>
 
                 <div class="labels_formulario_contacto">
-                    Estado civil: <br>
+                    <label for="estado_civil"> Estado civil: </label> <br>
                     <label for="estado">Soltero </label>
                     <input type="radio" name="soltero" id="estado">
                     
@@ -101,81 +92,62 @@
 
                 <div class="labels_formulario_contacto"> 
                     <label for="edad">Edad: </label>
-                    <input type="number" name"edad" max="120" min="0" placeholder="edad"> <br><br>
+                    <input type="number" name"edad" max="120" min="0" placeholder="edad..."> <br><br>
                 </div> 
                 
                 <div class="labels_formulario_contacto"> 
-                    Comentario: <br><br>
-                    <textarea rows="10" cols="55" name="comentario" placeholder="escriba un comentario..."></textarea> <br><br>
+                    <label for="comentario"> Comentario: </label> <br>
+                    <textarea rows="10" cols="75" name="comentario" placeholder="escriba un comentario..."></textarea> <br><br>
                 </div>
                 <div class="labels_formulario_contacto">   
                     <label for="archivo">Adjuntar archivo: </label>
                     <input> <input type="file" name="archivo" > <br><br>
                 </div>
                 
-                <div class="labels_formulario_contacto"->                 
-                    <buttom type="submit" value="Enviar"> ENVIAR:</buttom>
-                </div>                                              
+                <div class="enviar_formulario2">                 
+                    <input id="enviar_formulario" type="submit" value="Enviar">
+                </div>
+                                                          
             </form>              
 
-                    
-
-
-
-
-
-        
+                
         </main>
         <br><br>
 
         <footer>
-            <div align="center"> 
-                <img src="imagenes/paisaje.jpg" width="95%" height="300px" border="2">
+            <div class="Texto_Abajo">
+                <h1>  📞 Estamos aquí para ayudarte </h1>
+                <p>¿Tienes dudas o necesitas asistencia? Nuestro equipo está listo para ayudarte con tus reservas, destinos y cualquier consulta. Contáctanos y hagamos realidad tu próximo viaje. 🌍✈️ </p>
             </div>
-            
-            <br> <br> <br> 
-            <table align="center" border="1" width="95%" height="190px">
-                <tr>
-                    <th> INFORMACION GENERAL </th>
-                    <th> SERVICIOS</th>
-                    <th>  </th>
 
-                </tr>
-                <tr>
-                    <td>
-                        <ul>
-                            <li> <a href="https://www.facebook.com" target=_blank> SOBRE NOSOTROS </a> </li>
-                            <li> <a href="https://www.whatsapp.com/" target=_blank> PREGUNTAS FRECUENTES (FAQ) </a> </li>
-                            <li> <a href="https://www.instagram.com" target=_blank> TESTIMONIOS </a> </li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li> <a href="https://www.facebook.com" target=_blank> DESTINOS </a> </li>
-                            <li> <a href="https://www.whatsapp.com/" target=_blank> PAQUETES Y OFERTAS </a> </li>
-                            <li> <a href="https://www.instagram.com" target=_blank> RESERVAS </a> </li>
-                        </ul>
-                    </td>
+            <div class="informacion_contacto">
+                <h1>  ✈🌍 INFORMACION GENERAL 🌍✈ </h1>
+                <ul>
+                    <li> <a href="https://www.facebook.com" target=_blank> SOBRE NOSOTROS </a> </li>
+                    <li> <a href="https://www.whatsapp.com/" target=_blank> PREGUNTAS FRECUENTES (FAQ) </a> </li>
+                    <li> <a href="https://www.instagram.com" target=_blank> TESTIMONIOS </a> </li>
+                </ul>
+            </div>
 
-                    <td>
-                        <ul>
-                        
-                            <a> <img src="imagenes/2021_Facebook_icon.svg.png" width="25px" > </a> <br>
-                            <a> <img src="imagenes/pngtree-whatsapp-icon-png-image_3584844.jpg"  width="25px"> </a><br>
-                            <a> <img src="imagenes/icono-instagram_768467-672.avif" width="25px" > </a>
-                        </ul>  
-                    </td>
-                </tr>
-            </table>
+            <div class="informacion_contacto"> 
+                <h1>  ✈🌍 SERVICIOS 🌍✈ </h1>
+                <ul>
+                    <li> <a href="https://www.facebook.com" target=_blank> DESTINOS </a> </li>
+                    <li> <a href="https://www.whatsapp.com/" target=_blank> PAQUETES Y OFERTAS </a> </li>
+                    <li> <a href="https://www.instagram.com" target=_blank> RESERVAS </a> </li>
+                </ul>
+            </div>
 
+            <div class="Logo_Redes">
+                <ul>     
+                    <a> <img src="imagenes/2021_Facebook_icon.svg.png" width="25px" > </a> <br>
+                    <a> <img src="imagenes/pngtree-whatsapp-icon-png-image_3584844.jpg"  width="25px"> </a><br>
+                    <a> <img src="imagenes/icono-instagram_768467-672.avif" width="25px" > </a>
+                </ul>  
+            </div>
+            <h4> OTAKAR AGENCY</h4> 
+        </footer>
 
-        
-            <table align="center" border="1" width="95%" height="70px" >
-                <tr>          
-                    <th> OTAKAR AGENCY </th>  
-                </tr>
-            </table>
-        </footer>
 
 </body>
 </html>

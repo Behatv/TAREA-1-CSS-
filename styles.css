@@ -187,25 +187,58 @@ footer h4 {
 }
 
 /* PAGINA DE CONTACTO */
-
+ 
 #formulario_contacto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 10%;
-    height: 1000px;
-    background-color: rgb(0, 4, 255);
-    border-radius: 10px;
-    color: rgb(248, 17, 144);
+    background-color: white;
+    padding: 50px;
+    width: 30%;
+    margin-left: 650px;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-right: 80px;
+    border: #000000 solid 1px;
+    padding-bottom: 100px ;
 }
 
-.labels_formulario_contacto {
-    font-size: 20px;
-    margin: 10px;
-    color: rgb(212, 4, 4);
-    flex-direction: column;
-    align-items: center;
-    justify-content: center
+label {
+    font-weight: bold;
+    display: block; /* Ocupa todo el ancho disponible del contenedor */
+    margin-top: 10px;
+    width: 100%;
+
 }
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: #000000 solid 2px;
+
+}
+
+.enviar_formulario2 #enviar_formulario{
+    background-color: #3a0852;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    width: 20%;
+    float: right;
+    margin-bottom: 200px; 
+}
+
+select {
+    width: 104%; 
+    padding: 10px;
+    background-color: white;
+    font-size: 16px;
+    border: #000000 solid 2px;
+}
+
+textarea {
+    border: #000000 solid 2px;
+}
+
+
+
+
 
