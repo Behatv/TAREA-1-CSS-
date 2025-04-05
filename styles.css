@@ -209,13 +209,12 @@ label {
 }
 
 input {
-    width: 100%;
+    width: 92%;
     padding: 8px;
     margin-top: 5px;
     border: #000000 solid 2px;
 
 }
-
 
 
 .enviar_formulario2 #enviar_formulario{
@@ -229,7 +228,7 @@ input {
 }
 
 select {
-    width: 104%; 
+    width: 95%; 
     padding: 10px;
     background-color: white;
     font-size: 16px;
@@ -244,6 +243,50 @@ textarea {
 /* PAGINA DE NOSOTROS */
 
 
+#personas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+}
+.imagenes_personas{
+    width: 20%;
+    height: 200px;
+}
+
+.formulario_nosotros {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid black;
+    width: 96%;
+    margin: auto;
+    padding-left: 35px;
+}
+
+#banner2{
+    width: 50%;
+    height: 395px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.input_formulario_nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+
+.imagen_formulario{
+    justify-content: left;
+}
 
 
 
