@@ -242,6 +242,66 @@ textarea {
 
 /* PAGINA DE NOSOTROS */
 
+#barras{
+    display: flex;
+    flex-direction: row;
+    width: 98.5%;
+    height: 800px;
+    margin: auto;
+}
+.imagenes_barras1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 731px;
+    float: left;
+    align-items: center;
+    border: 2px solid #000;
+    gap: 10px;
+    margin: auto;
+}
+.imagenes_barras1 img {
+    width: 67%;
+    border: 2px solid #000000;
+    margin: 40px
+
+}
+
+.parrafo_barras{
+    width: 50%;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.parrafo_barras p{
+    margin: 50px;
+    margin-bottom: 120px;
+    margin-top: 100px;
+    
+}
+
+.imagenes_barras2{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100px;
+    float: right;
+    align-items: center;
+    height: 731px;
+    gap: 10px;
+    border: 2px solid #000;
+    margin: auto;
+}
+
+.imagenes_barras2 img {
+    width: 67%;
+    border: 2px solid #000000;
+    margin: 40px
+}
+
 
 #personas{
     display: flex;
