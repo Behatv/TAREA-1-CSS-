@@ -18,7 +18,7 @@ body{
     align-items: center;
     margin: 0;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .banner_inicio img{
@@ -39,7 +39,7 @@ button {
 nav {   
     display: flex;
     flex-direction: row;
-    width: 97%;
+    width: 98.5%;
     height: 45px;
     margin: 10px;
     padding: 10px;
@@ -66,9 +66,10 @@ nav img {
     width: 100%; 
     height: 350px; 
     align-items: center;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-right: 10px;
     border: #000000 solid 2px;
+
 }  
 #paisajes{
     display: flex;
@@ -76,8 +77,8 @@ nav img {
     justify-content: space-between;
     width: 85%;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 70px;
+    margin-bottom: 10px;
     padding-right: 25px;
     border: 2px solid #000000;
     border-radius: 5px;
@@ -114,42 +115,11 @@ nav img {
     align-items: center;
     text-align: center;
     width: 30%;
-    font-size: 27px;
+    font-size: 26px;
     margin: 50px;
     
 }
 
-#aaaaaa{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 99%;
-    padding: 20px 0px;
-    gap: 20px;
-    margin: auto;
-
-    
-}
-    
-.unaimage_unvideo_configuracion {
-    display: flex;
-    flex-direction: column;
-    width: 50%; 
-    margin-right: 200px;
-}
-
-.unaimage_unvideo_configuracion img{
-    width: 100%;
-    height: 250px;
-    border: 2px solid #000000;
-    margin: 0;
-}
-.unaimage_unvideo_configuracion video{
-    width: 100%;
-    height: 250px;
-    border: 2px solid #000000;
-    margin: 0;
-}
 
 .parrafo_derecha{
     width: 50%;
@@ -386,6 +356,17 @@ textarea {
 
 
 /* PAGINA DE NOSOTROS */
+.banner_nosotros{
+    width: 100%; 
+    height: 350px; 
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 10px;
+    border: #000000 solid 2px;
+    margin-top: 60px;   
+    margin-bottom: 50px;
+
+}
 
 .parrafo_imagen {
     display: flex;
@@ -396,7 +377,7 @@ textarea {
     width: 96.7%;
     margin: auto;
     padding-left: 35px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .parrafo_imagen p{
     display: flex;
