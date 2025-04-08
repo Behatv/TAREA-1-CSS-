@@ -2,11 +2,29 @@
     margin: 5px;
     padding: 0;
 }
-.body{
+body{
     font-family: Arial, Helvetica, sans-serif;
+    color: #003366
 }
 
 /* PAGINA DE INICIO */
+
+.banner_inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;    
+    height: 350px; 
+    align-items: center;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.banner_inicio img{
+    width: 100%;
+    height: 350px;
+}
 
 button {
     background-color: rgb(253, 253, 253);
@@ -18,17 +36,17 @@ button {
 }
 
 
-nav {
+nav {   
     display: flex;
     flex-direction: row;
-    width: 98%;
+    width: 97%;
     height: 45px;
     margin: 10px;
     padding: 10px;
     align-items: center;
     border: 2px solid #ccc;
-    margin-right: 20px;
     margin-top: 20px;
+    margin: auto;
 
 }
 
@@ -41,15 +59,64 @@ nav img {
 .botones_barra_de_navegacion{
     margin-left: auto; 
     gap: 10px; 
-
 }
 
+
 .banner {
-    width: 99%; 
+    width: 100%; 
     height: 350px; 
-    margin-right: 10px;
     align-items: center;
     margin-left: 10px;
+    margin-right: 10px;
+    border: #000000 solid 2px;
+}  
+#paisajes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-right: 25px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+
+} 
+
+#paisajes img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #000000;
+    width: 98%;
+    border-radius: 5px;
+    margin: 4px;
+    margin-left: 10px;
+}
+
+.imagen_pasaijes{
+    width: 30%;
+    height: 200px;
+}
+
+.abajo_inicio {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+.abajo_inicio p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    font-size: 27px;
+    margin: 50px;
+    
 }
 
 #aaaaaa{
@@ -67,7 +134,7 @@ nav img {
 .unaimage_unvideo_configuracion {
     display: flex;
     flex-direction: column;
-    width: 50%; /* que no ocupe todo el ancho */
+    width: 50%; 
     margin-right: 200px;
 }
 
@@ -75,12 +142,13 @@ nav img {
     width: 100%;
     height: 250px;
     border: 2px solid #000000;
-
+    margin: 0;
 }
 .unaimage_unvideo_configuracion video{
     width: 100%;
     height: 250px;
     border: 2px solid #000000;
+    margin: 0;
 }
 
 .parrafo_derecha{
@@ -97,7 +165,7 @@ nav img {
 
 .parrafo_derecha p{
     margin: auto;
-    font-size: 25px;
+    font-size: 27px;
 }
 
 #banner3{
@@ -106,7 +174,53 @@ nav img {
     margin-right: 10px;
     align-items: center;
     margin-left: 10px;
+    border: #000000 solid 2px;
 }
+
+.banner_video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;       
+    height: 350px; 
+    align-items: center;
+    border: #000000 solid 2px;
+    margin-left: 180px;
+    margin-bottom: 70px;
+}
+
+.parrafo_imagen2 {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid black;
+    width: 95.5%;
+    margin: auto;
+    padding-left: 35px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.parrafo_imagen2 p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    font-size: 27px;
+    margin: 50px;
+}
+#banner2_i_p {
+    width: 60%; 
+    height: 350px; 
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: #000000 solid 2px;
+    margin: 50px;
+}  
+
 
 .barra_redes{
     display: grid;
@@ -117,25 +231,27 @@ nav img {
     height: 200px;
     width: 98%;
     margin-top: 100px;
-    margin-left: 20px;
-    align-items: start;
+    margin: auto;
+
+
 
 }
 
 .barra_redes h1{
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
 .informacion_contacto a{
-    color: black;
+    color: #003366;
     text-decoration: none; /* subrayado al link */
-    font-size: 20px;
+    font-size: 15px;
+
 }
 
 .informacion_contacto ul li{
-    color: black;
+    color: #003366;
     list-style: none;  /* para quitarle el puntito al coso de la lista  */
     padding: 0px;
     margin-bottom: 15px;
@@ -335,11 +451,12 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 99.7%;
+    width: 97.3%;
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
     padding-right: 25px;
+    border: 2px solid #000000;
 
 } 
 
@@ -360,20 +477,19 @@ textarea {
     display: flex;
     flex-direction: row; 
     align-items: center;
-    justify-content: space-around;
-    border: 3px solid black;
-    width: 96.7%;
+    justify-content: space-between;
+    width: 100%;
     margin: auto;
-    padding-left: 35px;
 }
 .abajo_nosotros p{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 30%;
     font-size: 27px;
     margin: 50px;
+    
 }
 
 #banner2{
@@ -381,4 +497,8 @@ textarea {
     height: 395px;
     margin-bottom: 60px;
     margin-top: 40px;
+    border: #000000 solid 2px;
+    margin: 13px;
+
+
 }
